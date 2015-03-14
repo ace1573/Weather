@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add by lib -->
+	<color name="n_skyblue">#00BCD4</color>
+	<color name="n_bg_gray">#EEEEEE</color>
+	<color name="n_bg_pinkgray">#F6F5FB</color>
+	<color name="n_bg_lightyellow">#FEFEF6</color>
+	<color name="n_bg_lightgray">#FAFAFA</color>
+	<color name="n_font_black">#333333</color>
+	<color name="n_font_softgray">#666666</color>
+	<color name="n_font_lightgray">#999999</color>
+	<color name="n_divider_gray">#CCCCCC</color>
+	<color name="n_font_write">#FFFDFA</color>
+	<color name="n_font_gray">#625D40</color>
+	<color name="n_font_orange">#F4916A</color>
+	<color name="n_bg_yellow">#FEFEF4</color>
+	
+	<color name="n_bg_help_item">#e2e2e2</color>
+	<color name="white">#ffffff</color>
+	<color name="bg_press">#fff5fcff</color>
+</resources>

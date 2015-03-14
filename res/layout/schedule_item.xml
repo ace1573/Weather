@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+	android:id="@+id/layoutRoot"
+	android:background="@drawable/n_bg_groupitem"
+    android:orientation="horizontal" >
+
+
+	<TextView
+	    android:id="@+id/tv_time"
+	    style="@style/n_font_lightgray_t2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginLeft="10dp"
+	    android:gravity="center_vertical"
+	    android:layout_marginRight="15dp"
+	    android:text="xxx" />
+	
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="分组名"
+        style="@style/n_font_black_t2" />
+
+</RelativeLayout>

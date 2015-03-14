@@ -1,0 +1,58 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+<RelativeLayout 
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/n_bg_gray"
+     >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@null" >
+    </ListView>
+
+     <com.ace.weather.component.SlideBar
+        android:id="@+id/view_slidebar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_slidebar" >
+    </com.ace.weather.component.SlideBar>
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/n_font_blue_t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="正在读取联系人..."
+        android:visibility="gone" />
+
+</RelativeLayout>
+<Button
+        android:id="@+id/btn_ok"
+        style="@style/n_btn_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="完成"
+        android:textSize="18dp" />
+</LinearLayout>

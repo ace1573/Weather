@@ -1,0 +1,167 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+    </style>
+
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FAFAFA</item>
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+        <item name="android:backgroundStacked">#FAFAF8</item>
+        <!-- 分离成tab时的tab颜色 -->
+        <item name="android:backgroundSplit">#FAFAF8</item>
+        <item name="android:actionBarDivider">@drawable/n_divider_horizontal</item>
+    </style>
+
+    <style name="AcBar_titleStyle">
+        <item name="android:textColor">@color/n_font_black</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="n_edittext">
+        <item name="android:textColorHint">@color/n_font_lightgray</item>
+        <item name="android:background">@drawable/simple_input_bg</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:textColor">@color/n_font_black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_edittext1">
+        <item name="android:textColorHint">@color/n_font_lightgray</item>
+        <item name="android:background">@drawable/simple_input_bg</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:textColor">@color/n_font_black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="n_t1_height">
+        <item name="android:layout_height">55dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="n_tools_image_style">
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+    </style>
+
+    <!-- 黑色字体 -->
+    <style name="n_font_black_t1">
+        <item name="android:textColor">@color/n_font_black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="n_font_black_t2">
+        <item name="android:textColor">@color/n_font_black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_font_black_t3">
+        <item name="android:textColor">@color/n_font_black</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <!-- 灰色字体 -->
+    <style name="n_font_gray_t1">
+        <item name="android:textColor">@color/n_font_softgray</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="n_font_gray_t2">
+        <item name="android:textColor">@color/n_font_softgray</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_font_gray_t3">
+        <item name="android:textColor">@color/n_font_softgray</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <!-- 浅灰色字体 -->
+    <style name="n_font_lightgray_t1">
+        <item name="android:textColor">@color/n_font_lightgray</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="n_font_lightgray_t2">
+        <item name="android:textColor">@color/n_font_lightgray</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_font_lightgray_t3">
+        <item name="android:textColor">@color/n_font_lightgray</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="n_font_write_t2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_font_blue_t1">
+        <item name="android:textColor">@color/n_skyblue</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="n_font_blue_t2">
+        <item name="android:textColor">@color/n_skyblue</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="n_btn_blue">
+        <item name="android:background">@drawable/n_btn_blue</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="alert_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="n_btn_red">
+        <item name="android:background">@drawable/n_btn_exit</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/n_font_write</item>
+    </style>
+
+    <style name="n_btn_orange">
+        <item name="android:background">@drawable/n_btn_orange</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/n_font_write</item>
+    </style>
+
+</resources>

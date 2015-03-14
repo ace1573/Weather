@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/n_bg_gray"
+    android:orientation="vertical" >
+    
+
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    style="@style/n_font_gray_t2"
+	    android:text="反馈bug/索要源码请联系 @李标同学"
+	    android:layout_marginBottom="30dp"
+	    />    
+
+</RelativeLayout>

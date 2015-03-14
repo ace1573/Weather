@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/n_bg_groupitem"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/n_check_style"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_vertical" />
+    
+
+    <TextView
+        android:id="@+id/tv_contact_phone"
+        style="@style/n_font_gray_t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/cb_check"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:text="13800000000" />
+    
+
+    <TextView
+        android:id="@+id/tv_contact_name"
+        style="@style/n_font_black_t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:maxLength="5"
+        android:ellipsize="end"
+        android:text="联系人" />
+    
+    
+    <TextView
+        android:id="@+id/tv_state"
+        style="@style/n_font_black_t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_contact_name"
+        android:gravity="center_vertical"
+        android:visibility="visible"
+        android:textColor="@color/n_font_orange"
+        android:padding="2dp"
+        android:text="已发送" />
+
+</RelativeLayout>
